@@ -1,0 +1,52 @@
+{
+ "slug": "sk-mkpartners",
+ "nazev": "MK Partners, spol. s r.o.",
+ "kratky": "MK Partners",
+ "url": "https://webhunter-navrhy.github.io/sk-mkpartners/",
+ "base": "/sk-mkpartners/",
+ "lang": "sk",
+ "popis": "Účtovníctvo, spracovanie miezd, daňové priznania a ekonomické poradenstvo pre firmy a podnikateľov v Prešove.",
+ "navrh": true,
+ "domena": "",
+ "og_image": "porada.jpg",
+ "logo": "logo.png",
+ "theme_color": "#132057",
+ "typ": "AccountingService",
+ "ico": "36492299",
+ "kontakt": {
+  "email": "info@mkpartners.sk",
+  "telefon": "+421 950 415 557",
+  "adresa": {
+   "ulice": "Tkáčska 3",
+   "psc": "080 01",
+   "mesto": "Prešov",
+   "zeme": "SK"
+  }
+ },
+ "oteviraci_doba": [],
+ "sameas": [],
+ "cenove_rozpeti": "",
+ "formular": {
+  "endpoint": "",
+  "demo": true,
+  "predmet": "Správa z webu mkpartners.sk"
+ },
+ "nav": [
+  {
+   "text": "Služby",
+   "href": "#sluzby"
+  },
+  {
+   "text": "Poradenstvo",
+   "href": "#poradenstvo"
+  },
+  {
+   "text": "Firma",
+   "href": "#firma"
+  },
+  {
+   "text": "Kontakt",
+   "href": "#kontakt"
+  }
+ ]
+}

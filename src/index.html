@@ -1,0 +1,85 @@
+{% extends "_base.html" %}
+{% set titulek = 'MK Partners Prešov – účtovníctvo, mzdy, dane a poradenstvo' %}
+{% set cesta = '' %}
+{% macro zoznam(s) %}<ul class="zoznam" role="list">{% for b in s.body %}<li>{{ b }}</li>{% endfor %}</ul>{% endmacro %}
+{% block obsah %}
+<section class="hero">
+  <div class="wrap hero-grid">
+    <div class="hero-text">
+      <p class="kicker">Prešov · účtovníctvo, mzdy, dane</p>
+      <h1>Pozrime sa na financie zblízka.</h1>
+      <p class="perex">Venujeme sa spracovaniu účtovníctva, zostavovaniu daňových priznaní, spracovaniu mzdovej agendy a poskytovaniu poradenstva v oblasti daní a účtovníctva.</p>
+      <p class="hero-cta"><a class="tlacitko" href="#kontakt">Napíšte nám</a><a class="druhe" href="#sluzby">Čo robíme</a></p>
+    </div>
+    <div class="hero-foto">
+      {{ img('porada.jpg', 'Dvaja kolegovia v oblekoch spolu riešia dokument', sizes='(min-width: 60rem) 40rem, 100vw') }}
+    </div>
+  </div>
+</section>
+
+<section class="sekce uvod" id="firma">
+  <div class="wrap dva">
+    <div>
+      <h2>Aby ste sa mohli venovať podnikaniu</h2>
+    </div>
+    <div class="text">
+      <p>Snahou našej spoločnosti je poskytovať maximálne služby, aby ste sa vy mohli bez zbytočných starostí venovať svojmu podnikaniu. Klientom sa snažíme dodávať viac ako len povinné výstupy z účtovníctva.</p>
+      <p>Služby poskytujeme na základe požiadaviek klienta a určite dokážeme spolupracovať na báze vysokej profesionality, spoločnej prosperity a obojstrannej spokojnosti.</p>
+      <blockquote><strong>Naša filozofia</strong> vychádza z individuálneho prístupu ku každému klientovi. Zisťujeme jeho potreby a snažíme sa flexibilitou našich riešení prispôsobiť aktuálnej situácii.</blockquote>
+    </div>
+  </div>
+</section>
+
+<section class="sekce tmava" id="sluzby">
+  <div class="wrap">
+    <h2>Služby</h2>
+    <div class="karty">
+      <article class="karta"><h3>{{ data.sluzby.ucto.nazev }}</h3><p class="lead">{{ data.sluzby.ucto.uvod }}</p>{{ zoznam(data.sluzby.ucto) }}</article>
+      <article class="karta"><h3>{{ data.sluzby.mzdy.nazev }}</h3>{{ zoznam(data.sluzby.mzdy) }}</article>
+    </div>
+  </div>
+</section>
+
+<section class="sekce" id="poradenstvo">
+  <div class="wrap dva">
+    <div>
+      <h2>Poradenstvo</h2>
+      <h3 class="podnadpis">{{ data.sluzby.poradenstvo.nazev }}</h3>
+      {{ zoznam(data.sluzby.poradenstvo) }}
+    </div>
+    <div>
+      <h2 class="mensi">Ponuka</h2>
+      <h3 class="podnadpis">{{ data.sluzby.ponuka.nazev }}</h3>
+      {{ zoznam(data.sluzby.ponuka) }}
+    </div>
+  </div>
+</section>
+
+<section class="pas">
+  <div class="pas-foto">{{ img('okuliare.jpg', 'Okuliare položené na tabuľke s číslami', sizes='100vw') }}</div>
+</section>
+
+<section class="sekce" id="kontakt">
+  <div class="wrap dva">
+    <div>
+      <h2>Kontakt</h2>
+      <address>
+        <strong>MK Partners, spol. s r.o.</strong><br>
+        Tkáčska 3<br>080 01 Prešov<br>Slovenská republika
+      </address>
+      <p class="kontakty"><a href="mailto:{{ site.kontakt.email }}">{{ site.kontakt.email }}</a><br><a href="tel:{{ site.kontakt.telefon|replace(' ', '') }}">{{ site.kontakt.telefon }}</a></p>
+      <dl class="udaje">
+        <dt>Konateľ</dt><dd>Miroslav Komár</dd>
+        <dt>IČO</dt><dd>36492299</dd>
+        <dt>DIČ</dt><dd>2021817600</dd>
+        <dt>IČ DPH</dt><dd>SK 2021817600</dd>
+        <dt>Register</dt><dd>Obchodný register Okresného súdu Prešov, oddiel Sro, vložka č. 14805/P</dd>
+      </dl>
+    </div>
+    <div>
+      <h3 class="podnadpis">Napíšte nám</h3>
+      {% include "_formular.html" %}
+    </div>
+  </div>
+</section>
+{% endblock %}

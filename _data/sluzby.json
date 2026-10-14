@@ -1,0 +1,47 @@
+{
+ "ucto": {
+  "nazev": "Účtovníctvo – jednoduché, podvojné",
+  "uvod": "Pre všetky účtovné jednotky zabezpečujeme:",
+  "body": [
+   "spracovanie účtovných dokladov priebežne, mesačne a podľa potreby klienta",
+   "spracovanie DPH",
+   "možnosť spracovania účtovných dokladov i spätne",
+   "evidencia majetku",
+   "interné smernice účtovnej jednotky"
+  ]
+ },
+ "mzdy": {
+  "nazev": "Spracovanie miezd",
+  "uvod": "",
+  "body": [
+   "spracovanie mesačných miezd pre pracovníkov v hlavnom pracovnom pomere a zamestnancov zamestnaných na základe dohôd",
+   "vyhotovenie príkazov na úhradu miezd pracovníkov, daní, odvodov a zrážok",
+   "personalistika, pracovné zmluvy, prihlášky a odhlášky do poisťovní",
+   "spracovanie výkazov pre všetky poisťovne a fondy, štatistika, štvrťročné nahlasovanie zrazených preddavkov na daňový úrad",
+   "vypracovanie mzdových listov a evidenčných listov dôchodkového zabezpečenia, ročné zúčtovanie preddavkov na DzCFO"
+  ]
+ },
+ "poradenstvo": {
+  "nazev": "Ekonomické a účtovné poradenstvo",
+  "body": [
+   "účtovné poradenstvo",
+   "pomoc pri tvorbe podkladov pre finančné inštitúcie",
+   "možnosť zastupovania v daňovom konaní a v styku s ostatnými inštitúciami verejnej správy",
+   "vypracovanie podkladov pre uzatvorenie leasingovej zmluvy",
+   "oboznamovanie klientov so zmenami v platnej legislatíve",
+   "rekonštrukcia účtovníctva za minulé obdobia",
+   "štatistické výkazy"
+  ]
+ },
+ "ponuka": {
+  "nazev": "Ostatné ekonomické služby",
+  "body": [
+   "poradenstvo novovzniknutým firmám, zakladanie ekonomickej agendy",
+   "poradenstvo pri ročných závierkach a vypracovaní daňových priznaní",
+   "na požiadanie vystavovanie odberateľských faktúr",
+   "možnosť spracovania ekonomickej agendy aj v priestoroch účtovnej jednotky",
+   "elektronický prenos dát",
+   "možnosť prístupu na terminálový server"
+  ]
+ }
+}
